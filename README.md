@@ -17,7 +17,7 @@ This script automates periodic backups of a MariaDB database, compresses them in
 ## Prerequisites
 
 - **MariaDB** installed with access to `mysqldump`
-- **Bun v1.2.21** or higher installed → [Install Bun](https://bun.sh/docs/installation)
+- **Bun v1.2.21** or higher installed → [Install Bun](https://bun.sh/docs/installation) (You can also use Node.js with npm if preferred) 
 - Discord webhook URL (for receiving backups)
 
 ---
