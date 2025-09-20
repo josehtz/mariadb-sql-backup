@@ -1,0 +1,19 @@
+{
+  "name": "mariadb-discord-backup",
+  "version": "1.0.0",
+  "description": "Automates MariaDB backups: compresses and uploads to Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "_.jose.htz._",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.10.0",
+    "crypto-js": "^4.2.0",
+    "express": "^5.1.0",
+    "form-data": "^4.0.3",
+    "node-schedule": "^2.1.1"
+  }
+}
